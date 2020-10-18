@@ -1,4 +1,6 @@
 --Kauan Takeda - 156104
+--Waki
+--Camila
 
 import Data.List
 
