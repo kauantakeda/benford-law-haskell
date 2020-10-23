@@ -18,3 +18,6 @@ To use this functions try something like:
         - 2 number that started with "3",
         - 2 number that started with "4",
         - 1 number that started with "9"
+        
+You can try this haskell online editor, just copy and paste :)
+- https://repl.it/languages/haskell
