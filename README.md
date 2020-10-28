@@ -1,5 +1,5 @@
 # benford-law-haskell
-authors: Kauan Takeda, Lucas Waki, Camila 
+authors: Kauan Takeda, Lucas Waki, Camila Brito
 MC346 - Unicamp 2s2020
 
 
