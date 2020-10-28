@@ -18,6 +18,20 @@ To use this functions try something like:
         - 2 number that started with "3",
         - 2 number that started with "4",
         - 1 number that started with "9"
+
         
 You can try this haskell online editor, just copy and paste :)
 - https://repl.it/languages/haskell
+
+---
+  
+If you want to use main function you can try:
+```
+ghc benford-law-haskell.hs 
+./benford-law-haskell < file.in
+```
+Where file.in contains the text to analyze
+
+Or use this haskell online editor and put the text in STDIN tab:
+- https://www.tutorialspoint.com/compile_haskell_online.php
+
