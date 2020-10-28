@@ -1,6 +1,6 @@
 --Lucas Waki - 147021
 --Kauan Takeda - 156104
---Camila
+--Camila Brito - 141627
 
 
 import Data.List
