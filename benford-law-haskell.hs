@@ -2,7 +2,7 @@
 --Kauan Takeda - 156104
 --Camila Brito - 141627
 
-
+import Text.Printf
 import Data.List
 
 main = do
@@ -55,4 +55,8 @@ computeFrequency (x:xs) total = (fst x, fromIntegral (snd x) / fromIntegral tota
 
 tupleToString :: [(String, Float)] -> String
 tupleToString [] = ""
-tupleToString (x:xs) = fst x ++ " : " ++ show ( snd x ) ++ "\n" ++ tupleToString xs
+tupleToString (x:xs) = fst x ++ " : " ++ roundFloatToString 2 ( snd x ) ++ "\n" ++ tupleToString xs
+
+roundFloatToString ::(PrintfArg a, Floating a) => Int -> a -> String
+roundFloatToString n f = printf ("%0." ++ show n ++ "f") f
+
